@@ -1,0 +1,11 @@
+/*
+Theme Name:  Boone's Photoblog
+Theme URI:   http://github.com/boonebgorges/boones-photoblog
+Description: A mobile-photoblog theme. Child of Autofocus.
+Author:	     Boone Gorges
+Author URI:  http://boonebgorges.com
+Template:    autofocus
+Version:     1.0-beta
+*/
+
+@import url("../autofocus/style.css");
