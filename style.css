@@ -14,7 +14,7 @@ Version:     1.0-beta
 
 /* Entry titles (tweet content) */
 
-.single .post h2.entry-title {
+.single .post h2.entry-title, .single .attachment h2.entry-title {
 	font-size: 3em;
 }
 
@@ -25,8 +25,26 @@ Version:     1.0-beta
 		color: #4671d5;
 	}
 
+
 /* Single page photos */
 
-.single .post .full-photo .photo-credit {
+.single .post .full-photo .photo-credit, .single .attachment .full-photo .photo-credit {
 	height: auto;
 }
+
+
+/* entry content/meta */
+
+.single .post .entry-content, .single .attachment .entry-content {
+	width: 430px;
+	padding-right: 20px;
+}
+
+.single .post .entry-meta, .single .attachment .entry-meta {
+	color: #aaa;
+	width: 350px;
+}
+	.single .post .entry-meta a, .single .attachment .entry-meta a {
+		color: #888;
+	}
+
