@@ -9,3 +9,17 @@ Version:     1.0-beta
 */
 
 @import url("../autofocus/style.css");
+
+
+
+/* Entry titles (tweet content) */
+.single .post h2.entry-title {
+	font-size: 3em;
+}
+
+.entry-title a {
+	color: #2a4480;
+}
+	.entry-title a:hover {
+		color: #4671d5;
+	}
