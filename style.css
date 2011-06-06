@@ -13,6 +13,7 @@ Version:     1.0-beta
 
 
 /* Entry titles (tweet content) */
+
 .single .post h2.entry-title {
 	font-size: 3em;
 }
@@ -23,3 +24,9 @@ Version:     1.0-beta
 	.entry-title a:hover {
 		color: #4671d5;
 	}
+
+/* Single page photos */
+
+.single .post .full-photo .photo-credit {
+	height: auto;
+}
